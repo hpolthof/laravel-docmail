@@ -2,7 +2,14 @@
 This packages provides an interface to the mail services of [Docmail](https://www.cfhdocmail.com/). The provide their services in many countries and are able to process mailings at fair rates.
 
 ## Installing the package
-Open your ```config/app.php``` file and add the following service provider:
+
+You can install this package using [Composer](http://www.getcomposer.com/). Go to your commandline and run in the root of your project:
+
+```
+composer require hpolthof/laravel-docmail
+```
+
+Next, open your ```config/app.php``` file and add the following service provider:
 
 ```
 \Hpolthof\Docmail\DocmailServiceProvider::class,
@@ -31,3 +38,11 @@ Then add the following facade to your list of aliases:
     $docmail->getMailing()->setDiscountCode('');
 });
 ```
+
+## Important notice
+
+Although you can run the interaction with Docmail, within your controller. It is advised to make use of Jobs that are
+processed in the background. Although the processing is mostly done within a few seconds, the processing at the Docmail
+server can take up to a few minutes. Therefor background Jobs should be used to maintain optimal performance.
+
+> Read more on creating Jobs in the [Laravel Documentation](http://laravel.com/docs/5.1/queues#writing-job-classes).
