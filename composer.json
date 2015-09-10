@@ -1,0 +1,33 @@
+{
+  "name": "hpolthof/laravel-docmail",
+  "description": "An laravel implementation for Docmail.",
+  "keywords": [
+    "laravel", "docmail"
+  ],
+  "homepage": "https://github.com/hpolthof/laravel-docmail",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Olthof",
+      "email": "hpolthof@gmail.com",
+      "homepage": "https://github.com/hpolthof",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : ">=5.4.0",
+    "illuminate/support": "~5.1",
+    "fergusean/nusoap": "0.9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hpolthof\\Docmail\\": "src"
+    }
+  },
+  "minimum-stability": "stable",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  }
+}
