@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title>     &raquo; Compilation errors
+</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+    <link href="../css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/prism.css" rel="stylesheet" media="all"/>
+    <link href="../css/template.css" rel="stylesheet" media="all"/>
+    
+    <!--[if lt IE 9]>
+    <script src="../js/html5.js"></script>
+    <![endif]-->
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src="../js/ui/1.10.4/jquery-ui.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.smooth-scroll.js"></script>
+    <script src="../js/prism.min.js"></script>
+    <!-- TODO: Add http://jscrollpane.kelvinluck.com/ to style the scrollbars for browsers not using webkit-->
+    
+    <link rel="shortcut icon" href="../images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <i class="icon-ellipsis-vertical"></i>
+            </a>
+            <a class="brand" href="../index.html">Laravel-Docmail API Documentation</a>
+
+            <div class="nav-collapse">
+                <ul class="nav pull-right">
+                                        <li class="dropdown">
+                        <a href="../index.html" class="dropdown-toggle" data-toggle="dropdown">
+                            API Documentation <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                                                        <li><a href="../namespaces/Hpolthof.html">\Hpolthof</a></li>
+                                                    </ul>
+                    </li>
+                                        <li class="dropdown" id="charts-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Charts <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="../graphs/class.html">
+                                    <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" id="reports-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Reports <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="../reports/errors.html">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">165</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../reports/markers.html">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <i class="icon-list-alt"></i>&#160;Markers <span class="label label-info pull-right">0</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../reports/deprecated.html">
+                                                                                                            <i class="icon-list-alt"></i>&#160;Deprecated <span class="label label-info pull-right">0</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--<div class="go_to_top">-->
+    <!--<a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>-->
+    <!--</div>-->
+</div>
+
+<div id="___" class="container-fluid">
+        <section class="row-fluid">
+        <div class="span2 sidebar">
+
+            <ul class="side-nav nav nav-list">
+                <li class="nav-header">Navigation</li>
+                                                                            <li><a href="#DocmailException.php"><i class="icon-file"></i> DocmailException.php</a></li>
+                                                                                                    <li><a href="#DocmailTemplateFile.php"><i class="icon-file"></i> DocmailTemplateFile.php</a></li>
+                                                                                                    <li><a href="#DocmailService.php"><i class="icon-file"></i> DocmailService.php</a></li>
+                                                                                                    <li><a href="#DocmailServiceProvider.php"><i class="icon-file"></i> DocmailServiceProvider.php</a></li>
+                                                                                                    <li><a href="#DocmailAddress.php"><i class="icon-file"></i> DocmailAddress.php</a></li>
+                                                                                                    <li><a href="#DocmailArrayAccessTrait.php"><i class="icon-file"></i> DocmailArrayAccessTrait.php</a></li>
+                                                                                                    <li><a href="#DocmailMailing.php"><i class="icon-file"></i> DocmailMailing.php</a></li>
+                                                                                                    <li><a href="#DocmailFacade.php"><i class="icon-file"></i> DocmailFacade.php</a></li>
+                                                                                                    <li><a href="#config/docmail.php"><i class="icon-file"></i> config/docmail.php</a></li>
+                                                                    </ul>
+        </div>
+
+        <div class="span10 offset2">
+            <ul class="breadcrumb">
+                <li><a href="../"><i class="icon-remove-sign"></i></a><span class="divider">\</span></li>
+                <li>Compilation Errors</li>
+            </ul>
+
+            
+                            <div class="package-contents">
+                                            <a name="DocmailException.php" id="DocmailException.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>
+                            DocmailException.php
+                            <small style="float: right;padding-right: 10px;">2</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>4</td>
+                                        <td>No summary for class \Hpolthof\Docmail\DocmailException</td>
+                                    </tr>
+                                                            </tbody>
+                            </table>
+                        </div>
+                                    </div>
+                            <div class="package-contents">
+                                            <a name="DocmailTemplateFile.php" id="DocmailTemplateFile.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>
+                            DocmailTemplateFile.php
+                            <small style="float: right;padding-right: 10px;">36</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>53</td>
+                                        <td>No summary for method getTemplateName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>62</td>
+                                        <td>No summary for method setTemplateName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>71</td>
+                                        <td>No summary for method getFileName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>80</td>
+                                        <td>No summary for method setFileName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>89</td>
+                                        <td>No summary for method getFileData()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>98</td>
+                                        <td>No summary for method setFileData()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>107</td>
+                                        <td>No summary for method getDocumentType()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>122</td>
+                                        <td>Argument $DocumentType is missing from the Docblock of setDocumentType</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>122</td>
+                                        <td>No summary for method setDocumentType()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>131</td>
+                                        <td>No summary for method getAddressedDocument()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>152</td>
+                                        <td>No summary for method getAddressFontCode()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>167</td>
+                                        <td>Argument $AddressFontCode is missing from the Docblock of setAddressFontCode</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>167</td>
+                                        <td>No summary for method setAddressFontCode()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>176</td>
+                                        <td>No summary for method getTemplateType()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>185</td>
+                                        <td>No summary for method setTemplateType()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>194</td>
+                                        <td>No summary for method getBackgroundName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>203</td>
+                                        <td>No summary for method setBackgroundName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>212</td>
+                                        <td>No summary for method isCanBeginOnBack()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>221</td>
+                                        <td>No summary for method setCanBeginOnBack()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>230</td>
+                                        <td>No summary for method isNextTemplateCanBeginOnBack()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>239</td>
+                                        <td>No summary for method setNextTemplateCanBeginOnBack()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>248</td>
+                                        <td>No summary for method getProtectedAreaPassword()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>257</td>
+                                        <td>No summary for method setProtectedAreaPassword()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>266</td>
+                                        <td>No summary for method getEncryptionPassword()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>275</td>
+                                        <td>No summary for method setEncryptionPassword()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>284</td>
+                                        <td>No summary for method isBleedSupplied()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>293</td>
+                                        <td>No summary for method setBleedSupplied()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>302</td>
+                                        <td>No summary for method getCopies()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>311</td>
+                                        <td>No summary for method setCopies()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>320</td>
+                                        <td>No summary for method getInstances()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>329</td>
+                                        <td>No summary for method setInstances()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>338</td>
+                                        <td>No summary for method getInstancePageNumbers()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>347</td>
+                                        <td>No summary for method setInstancePageNumbers()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>356</td>
+                                        <td>No summary for method isCycleInstancesOnCopies()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>365</td>
+                                        <td>No summary for method setCycleInstancesOnCopies()</td>
+                                    </tr>
+                                                            </tbody>
+                            </table>
+                        </div>
+                                    </div>
+                            <div class="package-contents">
+                                            <a name="DocmailService.php" id="DocmailService.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>
+                            DocmailService.php
+                            <small style="float: right;padding-right: 10px;">7</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>24</td>
+                                        <td>No summary for method __construct()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>190</td>
+                                        <td>No summary for method getMailing()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>199</td>
+                                        <td>No summary for method setMailing()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>235</td>
+                                        <td>No summary for method getAddresses()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>296</td>
+                                        <td>No summary for method getTemplate()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>305</td>
+                                        <td>No summary for method setTemplate()</td>
+                                    </tr>
+                                                            </tbody>
+                            </table>
+                        </div>
+                                    </div>
+                            <div class="package-contents">
+                                            <a name="DocmailServiceProvider.php" id="DocmailServiceProvider.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>
+                            DocmailServiceProvider.php
+                            <small style="float: right;padding-right: 10px;">2</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>6</td>
+                                        <td>No summary for class \Hpolthof\Docmail\DocmailServiceProvider</td>
+                                    </tr>
+                                                            </tbody>
+                            </table>
+                        </div>
+                                    </div>
+                            <div class="package-contents">
+                                            <a name="DocmailAddress.php" id="DocmailAddress.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>
+                            DocmailAddress.php
+                            <small style="float: right;padding-right: 10px;">70</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>69</td>
+                                        <td>No summary for method getAddress1()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>78</td>
+                                        <td>No summary for method setAddress1()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>87</td>
+                                        <td>No summary for method getAddress2()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>96</td>
+                                        <td>No summary for method setAddress2()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>105</td>
+                                        <td>No summary for method getAddress3()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>114</td>
+                                        <td>No summary for method setAddress3()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>123</td>
+                                        <td>No summary for method getAddress4()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>132</td>
+                                        <td>No summary for method setAddress4()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>141</td>
+                                        <td>No summary for method getAddress5()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>150</td>
+                                        <td>No summary for method setAddress5()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>159</td>
+                                        <td>No summary for method getAddress6()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>168</td>
+                                        <td>No summary for method setAddress6()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>177</td>
+                                        <td>No summary for method isUseForProof()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>199</td>
+                                        <td>No summary for method getTitle()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>208</td>
+                                        <td>No summary for method setTitle()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>217</td>
+                                        <td>No summary for method getFirstName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>226</td>
+                                        <td>No summary for method setFirstName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>235</td>
+                                        <td>No summary for method getSurname()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>244</td>
+                                        <td>No summary for method setSurname()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>253</td>
+                                        <td>No summary for method getFullname()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>262</td>
+                                        <td>No summary for method setFullname()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>271</td>
+                                        <td>No summary for method getJobTitle()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>280</td>
+                                        <td>No summary for method setJobTitle()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>289</td>
+                                        <td>No summary for method getCompanyName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>298</td>
+                                        <td>No summary for method setCompanyName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>307</td>
+                                        <td>No summary for method getEmail()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>316</td>
+                                        <td>No summary for method setEmail()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>325</td>
+                                        <td>No summary for method getTelephone()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>334</td>
+                                        <td>No summary for method setTelephone()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>343</td>
+                                        <td>No summary for method getDirectLine()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>352</td>
+                                        <td>No summary for method setDirectLine()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>361</td>
+                                        <td>No summary for method getMobile()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>370</td>
+                                        <td>No summary for method setMobile()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>379</td>
+                                        <td>No summary for method getFacsimile()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>388</td>
+                                        <td>No summary for method setFacsimile()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>397</td>
+                                        <td>No summary for method getExtraInfo()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>406</td>
+                                        <td>No summary for method setExtraInfo()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>415</td>
+                                        <td>No summary for method getNotes()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>424</td>
+                                        <td>No summary for method setNotes()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>433</td>
+                                        <td>No summary for method getCustomerAddressID()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>442</td>
+                                        <td>No summary for method setCustomerAddressID()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>451</td>
+                                        <td>No summary for method getCustomerImportID()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>460</td>
+                                        <td>No summary for method setCustomerImportID()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>469</td>
+                                        <td>No summary for method getStreamPages1()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>478</td>
+                                        <td>No summary for method setStreamPages1()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>487</td>
+                                        <td>No summary for method getStreamPages2()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>496</td>
+                                        <td>No summary for method setStreamPages2()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>505</td>
+                                        <td>No summary for method getStreamPages3()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>514</td>
+                                        <td>No summary for method setStreamPages3()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>523</td>
+                                        <td>No summary for method getCustom1()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>532</td>
+                                        <td>No summary for method setCustom1()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>541</td>
+                                        <td>No summary for method getCustom2()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>550</td>
+                                        <td>No summary for method setCustom2()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>559</td>
+                                        <td>No summary for method getCustom3()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>568</td>
+                                        <td>No summary for method setCustom3()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>577</td>
+                                        <td>No summary for method getCustom4()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>586</td>
+                                        <td>No summary for method setCustom4()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>595</td>
+                                        <td>No summary for method getCustom5()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>604</td>
+                                        <td>No summary for method setCustom5()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>613</td>
+                                        <td>No summary for method getCustom6()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>622</td>
+                                        <td>No summary for method setCustom6()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>631</td>
+                                        <td>No summary for method getCustom7()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>640</td>
+                                        <td>No summary for method setCustom7()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>649</td>
+                                        <td>No summary for method getCustom8()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>658</td>
+                                        <td>No summary for method setCustom8()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>667</td>
+                                        <td>No summary for method getCustom9()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>676</td>
+                                        <td>No summary for method setCustom9()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>685</td>
+                                        <td>No summary for method getCustom10()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>694</td>
+                                        <td>No summary for method setCustom10()</td>
+                                    </tr>
+                                                            </tbody>
+                            </table>
+                        </div>
+                                    </div>
+                            <div class="package-contents">
+                                            <a name="DocmailArrayAccessTrait.php" id="DocmailArrayAccessTrait.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>
+                            DocmailArrayAccessTrait.php
+                            <small style="float: right;padding-right: 10px;">12</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>3</td>
+                                        <td>No summary for trait &quot;&quot;</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>5</td>
+                                        <td>Argument $offset is missing from the Docblock of offsetExists</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>5</td>
+                                        <td>No summary for method offsetExists()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>10</td>
+                                        <td>Argument $offset is missing from the Docblock of offsetGet</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>10</td>
+                                        <td>No summary for method offsetGet()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>15</td>
+                                        <td>Argument $offset is missing from the Docblock of offsetSet</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>15</td>
+                                        <td>Argument $value is missing from the Docblock of offsetSet</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>15</td>
+                                        <td>No summary for method offsetSet()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>24</td>
+                                        <td>Argument $offset is missing from the Docblock of offsetUnset</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>24</td>
+                                        <td>No summary for method offsetUnset()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>33</td>
+                                        <td>No summary for method toArray()</td>
+                                    </tr>
+                                                            </tbody>
+                            </table>
+                        </div>
+                                    </div>
+                            <div class="package-contents">
+                                            <a name="DocmailMailing.php" id="DocmailMailing.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>
+                            DocmailMailing.php
+                            <small style="float: right;padding-right: 10px;">33</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>27</td>
+                                        <td>No summary for method __construct()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>37</td>
+                                        <td>No summary for method getCustomerApplication()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>46</td>
+                                        <td>No summary for method setCustomerApplication()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>55</td>
+                                        <td>No summary for method getProductType()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>68</td>
+                                        <td>Argument $ProductType is missing from the Docblock of setProductType</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>68</td>
+                                        <td>No summary for method setProductType()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>77</td>
+                                        <td>No summary for method getMailingName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>86</td>
+                                        <td>No summary for method setMailingName()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>95</td>
+                                        <td>No summary for method getMailingDescription()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>104</td>
+                                        <td>No summary for method setMailingDescription()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>113</td>
+                                        <td>No summary for method isMono()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>135</td>
+                                        <td>No summary for method isDuplex()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>157</td>
+                                        <td>No summary for method getDeliveryType()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>170</td>
+                                        <td>Argument $DeliveryType is missing from the Docblock of setDeliveryType</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>170</td>
+                                        <td>No summary for method setDeliveryType()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>179</td>
+                                        <td>No summary for method isCourierDeliveryToSelf()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>188</td>
+                                        <td>No summary for method setCourierDeliveryToSelf()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>197</td>
+                                        <td>No summary for method isDespatchASAP()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>206</td>
+                                        <td>No summary for method setDespatchASAP()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>215</td>
+                                        <td>No summary for method getDespatchDate()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>224</td>
+                                        <td>No summary for method setDespatchDate()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>233</td>
+                                        <td>No summary for method getAddressNamePrefix()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>244</td>
+                                        <td>Argument $AddressNamePrefix is missing from the Docblock of setAddressNamePrefix</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>244</td>
+                                        <td>No summary for method setAddressNamePrefix()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>253</td>
+                                        <td>No summary for method getAddressNameFormat()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>265</td>
+                                        <td>Argument $AddressNameFormat is missing from the Docblock of setAddressNameFormat</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>265</td>
+                                        <td>No summary for method setAddressNameFormat()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>274</td>
+                                        <td>No summary for method getDiscountCode()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>283</td>
+                                        <td>No summary for method setDiscountCode()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>292</td>
+                                        <td>No summary for method getMinEnvelopeSize()</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>303</td>
+                                        <td>Argument $MinEnvelopeSize is missing from the Docblock of setMinEnvelopeSize</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>303</td>
+                                        <td>No summary for method setMinEnvelopeSize()</td>
+                                    </tr>
+                                                            </tbody>
+                            </table>
+                        </div>
+                                    </div>
+                            <div class="package-contents">
+                                            <a name="DocmailFacade.php" id="DocmailFacade.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>
+                            DocmailFacade.php
+                            <small style="float: right;padding-right: 10px;">2</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>6</td>
+                                        <td>No summary for class \Hpolthof\Docmail\DocmailFacade</td>
+                                    </tr>
+                                                            </tbody>
+                            </table>
+                        </div>
+                                    </div>
+                            <div class="package-contents">
+                                            <a name="config/docmail.php" id="config/docmail.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>
+                            config/docmail.php
+                            <small style="float: right;padding-right: 10px;">1</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>
+                                                            </tbody>
+                            </table>
+                        </div>
+                                    </div>
+                    </div>
+    </section>
+
+    <footer class="row-fluid">
+        <section class="span10 offset2">
+            <section class="row-fluid">
+                <section class="span10 offset1">
+                    <section class="row-fluid footer-sections">
+                        <section class="span4">
+                                                        <h1><i class="icon-code"></i></h1>
+                            <div>
+                                <ul>
+                                                                            <li><a href="../namespaces/Hpolthof.html">\Hpolthof</a></li>
+                                                                    </ul>
+                            </div>
+                        </section>
+                        <section class="span4">
+                                                        <h1><i class="icon-bar-chart"></i></h1>
+                            <div>
+                                <ul>
+                                    <li><a href="../graphs/class.html">Class Hierarchy Diagram</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="span4">
+                                                        <h1><i class="icon-pushpin"></i></h1>
+                            <div>
+                                <ul>
+                                    <li><a href="../reports/errors.html">Errors</a></li>
+                                    <li><a href="../reports/markers.html">Markers</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <section class="row-fluid">
+                <section class="span10 offset1">
+                    <hr />
+                    Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and authored
+                    on September 10th, 2015 at 20:52.
+                </section>
+            </section>
+        </section>
+    </footer>
+</div>
+
+</body>
+</html>
