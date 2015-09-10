@@ -39,6 +39,10 @@ Then add the following facade to your list of aliases:
 });
 ```
 
+## API Reference
+
+For the detailed API Reference please refer to the [API Documentation](http://hpolthof.github.io/laravel-docmail/docs/namespaces/Hpolthof.Docmail.html).
+
 ## Important notice
 
 Although you can run the interaction with Docmail, within your controller. It is advised to make use of Jobs that are
