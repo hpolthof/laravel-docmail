@@ -3,7 +3,7 @@ This packages provides an interface to the mail services of [Docmail](https://ww
 
 ## Installing the package
 
-You can install this package using [Composer](http://www.getcomposer.com/). Go to your commandline and run in the root of your project:
+You can install this package using [Composer](https://www.getcomposer.org/). Go to your commandline and run in the root of your project:
 
 ```
 composer require hpolthof/laravel-docmail
